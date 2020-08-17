@@ -1,0 +1,45 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(https://media-exp1.licdn.com/dms/image/C561BAQGpxRlo9gp3cQ/company-background_10000/0?e=2159024400&v=beta&t=TrelGvVGOofaPX-01588Ei8BJf0_8taYBiGFlk9zyME);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dime{
+    width: 10vh;
+    height: 10vh;
+    
+}
+.dime:hover{
+transform: scale(0.7);
+}
+
+header, footer{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    width: 100%;
+    border: solid rgb(71, 5, 5) 5px;
+}
+
+.arreglo{
+    font: arial;
+    line-height: 1.5em;
+    color: white;
+    display: flex;
+    padding-bottom: 30px;   
+    padding-left: 100px;
+    padding-right: 100px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
